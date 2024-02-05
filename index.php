@@ -71,6 +71,7 @@
         echo "<p> Jumlah SKS: " . $sks['total_sks'] . "</p>";
         echo "<p> Jumlah Bobot: " . $bobot['total_bobot'] . "</p>";
         echo "<h4> IPK Anda: " . round($bobot['total_bobot'] / $sks['total_sks'] , 2) . "</h4>";
+        echo "<h4> Semoga Menang </h4>";
     }
     
     ?>
